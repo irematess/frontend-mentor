@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    display: flex;
+    max-width: 666px;
+    margin: 0 1rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.left{
+
+    width: 50%;
+    
+}
+
+.left img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.right{
+    width: 50%;
+    padding: 2rem;
+}
+
+.right h3{
+    font-family: "Montserrat";
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 1.75rem;
+}
+
+.right h2{
+    font-family: "Fraunces";
+    font-size: 30px;
+    line-height: 1.9rem;
+    color: hsl(212, 21%, 14%);
+    padding-right: 2rem;
+    margin-bottom: 1.75rem;
+}
+
+.right p{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+     line-height: 22px;
+    margin-bottom: 1.75rem;
+}
+
+.price{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.75rem;
+}
+
+.current-price{
+    font-family: "Fraunces";
+    font-size: 30px;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+}
+
+.old-price{
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+button{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Montserrat";
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(212, 21%, 14%);
+}
+
+@media only screen and (max-width: 550px) {
+    .card {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      flex-direction: column;
+    }
+  
+    .left {
+      width: 100%;
+      height: 40%;
+    }
+  
+    .left img {
+      content: url("./images/image-product-mobile.jpg");
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 0px;
+      
+    }
+  
+  
+    .right {
+      width: 100%;
+    }
+  
+    .right h2 {
+      padding-right: 0;
+    }
+  
+    
+  }
