@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    position: relative;
+}
+
+.card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bottom{
+    padding: 7%;
+    text-align: center;
+}
+
+.tittle{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.bottom p.subtittle{
+    color: #8a8a8a;
+    margin-bottom: 25px;
+}
+
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plan-left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.plan-left div{
+    margin-left: 20px;
+
+}
+
+.plan-left div h5{
+    font-weight: 900;
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+}
+.plan-left div p{
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+.plan a{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    transition: color .3s ease;
+}
+
+.plan a:hover{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);    
+}
+
+.procesed{
+    display: block;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 20px 0;
+    border-radius: 12px;
+    margin: 30px 0;
+    transition: background-color .3s ease;
+}
+
+.procesed:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+
+.cancel{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 900;
+    transition: color .3s ease;
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+@media only screen and (max-width: 425px) {
+    body {
+        background-image: url(https://www.digitshack.com/codepen/mentor1/pattern-background-mobile.svg);
+        font-size: 14px;
+    }
+
+    .card {
+        max-width: 87%;
+    }
+
+    .title {
+        font-size: 23px;
+    }
+
+    div.plan {
+        padding: 12px;
+    }
+
+    .plan-left div {
+        margin-left: 10px;
+    }
+
+    .proceed,
+    .cancel,
+    .plan a {
+        font-size: 13px;
+    }
+
+    .bottom {
+        padding: 9% 7%;
+    }
+}
+
