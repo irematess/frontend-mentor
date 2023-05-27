@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./images/bg-pattern-top-desktop.svg");
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.top h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.top p{
+    font-size: .9rem;
+}
+
+.customer-rating{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(300, 24%, 96%);
+    padding: .7rem 1.5rem;
+    margin-bottom: .8rem;
+    font-size: .7rem;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.rating-img{
+    margin-right: 1rem;
+}
+
+.rating-2nd{
+    margin-left: 1rem;
+}
+
+.rating-3rd{
+    margin-left: 2rem;
+}
+
+.bottom-ratings{
+    margin-top: 50px;
+}
+
+.rating-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 300px;
+    height: 150px;
+    background-color: hsl(300, 43%, 22%);
+    margin-right: 1rem;
+    padding: 20px 15px;
+    border-radius: 8px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile img{
+    width: 50px;
+    height: auto;
+    border-radius: 100px;
+    margin-right: 1rem;
+}
+
+.profile h3{
+    font-size: .7rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 3px;
+}
+
+.profile h5{
+    font-size: .3rem;
+    color: hsl(333, 80%, 67%);
+}
+
+.review p{
+    font-size: .7rem;
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 1.1rem;
+}
+
+.rating-card-2{
+    margin-top: 1rem;
+}
+
+.rating-card-3{
+    margin-top: 2rem;
+}
+
+.bottom-ratings{
+    background-image: url("./images/bg-pattern-bottom-desktop.svg");
+}
+
+@media (max-width: 375px){
+    .top h1{
+        font-size: 2rem;
+        margin-top: 1rem;
+        text-align: center;
+        background-image: url("./images/bg-pattern-top-mobile.svg");
+    }
+
+    .top p{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .rating-2nd{
+        margin-left: 0;
+    }
+
+    .rating-3rd{
+        margin-left: 0;
+    }
+
+    .rating-img{
+        margin-right: 0;
+    }
+
+    .customer-rating{
+        justify-content: center;
+    }
+
+    .rating-card{
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .card{
+        width: 100%;
+        margin-top: 1rem;
+        flex-wrap: wrap;
+    }
+    
+    .bottom-ratings{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        background-image: url("./images/bg-pattern-bottom-mobile.svg");
+        background-position: bottom;
+        flex-wrap: wrap;
+    }
+}
