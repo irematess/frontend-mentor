@@ -224,3 +224,79 @@ footer .socials i{
     bottom: 30px;
     font-size: 12px;
 }
+
+@media (max-width: 376px){
+    main{
+        padding: 20px;
+        background-color: hsl(193, 100%, 96%) url("assets/images/bg-hero-mobile.svg") no-repeat;
+    }
+
+    .btn{
+        padding: 10px 30px
+    }
+
+    .logo img{
+        height: 18px;
+    }
+
+    .hero-content{
+        flex-direction: column;
+    }
+    
+    .hero-content .text-info{
+        text-align: center;
+        padding-right: 0px;
+        margin: 3rem 0;
+    }
+
+    .features-section{
+        padding: 100px 20px 200px 20px;
+    }
+
+    .features-section h2{
+        font-size: 25px;
+    }
+
+    .feature{
+        flex-direction: column-reverse;
+        text-align: center;
+        height: 500px;
+        padding: 30px 20px;
+    }
+
+    .feature .f-illustration img{
+        height: auto;
+        width: 90%;
+    }
+    
+    .feature:nth-child(even){
+        flex-direction: column-reverse;
+    }
+
+    .cta{
+        text-align: center;
+        width: 340px;
+        padding: 30px 0;
+    }
+    footer{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 150px 30px 70px 30px;
+    }
+    
+    .footer-section{
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+    
+    footer .socials{
+        align-self: center;
+    }
+    
+    .copyright{
+        right: 50%;
+        transform: translateX(50%);
+        width: 300px;
+    }
+    
+}
