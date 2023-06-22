@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-feature-blocks-A4nt3OvEtv)
-- Live Site URL: [Add live site URL here](https://huddlelandingpagewithalernativefuture.netlify.app/)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-feature-blocks-A4nt3OvEtv)
+- Live Site URL:(https://huddlelandingpagewithalernativefuture.netlify.app/)
 
 ## My process
 
@@ -44,5 +44,5 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/irematess)
-- Twitter - [@yourusername](https://www.twitter.com/irematees16)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/irematess)
+- Twitter - (https://www.twitter.com/irematees16)
