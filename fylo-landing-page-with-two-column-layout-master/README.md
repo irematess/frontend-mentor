@@ -10,11 +10,7 @@ This is a solution to the [Fylo landing page with two column layout challenge on
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,13 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](/design/desktop-preview.jpg)
+![](./design/desktop-preview.jpg)
 
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/fylo-landing-page-wtih-two-column-layout-hp9BvyiNTT)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/fylo-landing-page-wtih-two-column-layout-hp9BvyiNTT)
+- Live Site URL:(https://fylolandingpagewtihtwocolumn.netlify.app/)
 
 ## My process
 
