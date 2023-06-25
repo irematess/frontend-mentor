@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+img{
+    width: 100%;
+}
+
+header {
+    padding: 36px 59px;
+    display: flex;
+    margin: 4rem auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 3.5rem;
+    font-size: 1.2rem;
+}
+
+ul li a {
+    color: hsl(243, 87%, 12%);
+}
+
+
+h1, h2, h3{
+    font-family: 'Raleway', sans-serif;
+}
+
+main{
+    margin: 0 auto;
+    height: 100vh;
+    padding: 36px 59px;
+}
+
+
+.logo img{
+    height: 36px;
+}
+
+
+.hero-content{
+    display: flex;
+    align-items: center;
+}
+
+.hero-content h1{
+    font-size: 2.6rem;
+    line-height: 1.4;
+}
+
+.hero-content p{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    width: 90%;
+    color: hsl(243, 87%, 12%);
+
+}
+
+.form{
+    padding-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.form input{
+    border: 0.85px solid hsl(243, 87%, 12%);
+    padding: 1rem 10rem 1rem 1rem;
+    border-radius: 3px;
+}
+
+.form button{
+    border: 0.85px;
+    background-color: hsl(224, 93%, 58%);
+    padding: 1rem 4rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 3px;
+}
+
+.form button:hover{
+    background-color: hsl(224, 93%, 58%)
+    ;
+    opacity:0.5;
+}
+
+section{
+    background-image: url("../images/bg-curve-desktop.svg");
+    background-size: cover;
+    background-position: top;
+}
+
+.productive-content{
+    padding: 36px 59px;
+    display: flex;
+    margin: 2rem auto 0 auto;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+.section-text{
+    flex: 1 1 auto;
+}
+
+section .illustration{
+    flex: 1 2 auto;
+}
+
+.section-text h3{
+    font-size: 2.6rem;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(243, 87%, 12%);
+    line-height: 1.4;
+}
+
+.desc{
+    width: 80%;
+    margin-bottom: 1.5rem;
+}
+
+.desc p{
+    padding-top: 1rem;
+    font-size: 1.0rem;
+    width: 90%;
+    color: hsl(243, 87%, 12%);
+    font-weight: 600;
+}
+
+.section-text a{
+    color: hsl(170, 45%, 43%);
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+    padding-bottom: 0.21rem;
+}
+
+.section-text a:hover{
+    color: hsl(170, 45%, 43%);
+    opacity:0.5;
+}
+
+.section-text a::after {
+    padding-left: 0.257rem;
+    text-align: center;
+}
+
+section .card{
+    margin-top: 3rem;
+}
+
+.card .testimonial-content {
+    width: 48%;
+    background-color: white;
+    padding: 1.5rem;
+    box-shadow: 2px 2px 10px 2px #ccc;
+}
+
+.testimonial-content > p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.author-bio {
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    width: 70%;
+    margin-top: 2rem;
+}
+
+.avatar {
+    width: 15%;
+}
+
+.avatar img{
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+.ceo{
+    display: flex;
+    flex-direction: column;
+}
+
+.author-bio h5{
+    font-size: 0.825rem;
+
+}
+
+.author-bio p {
+    font-size: 0.65rem;
+}
+
+.early{
+    padding: 36px 59px;
+    background-color: hsl(238, 22%, 44%);
+}
+
+.newslatter-container{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.newslatter-container .text{
+    flex: 1 1 15rem;
+}
+
+.newslatter-container .email{
+    flex: 1 1 2rem;
+}
+
+.newslatter-container .text h4{
+    font-size: 2.1rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    line-height: 1.4;
+}
+
+.newslatter-container .text p{
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 72%;
+    color: hsl(240, 75%, 98%);
+    padding-top: 1.5rem;
+}
+
+.newslatter-container .email{
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+}
+
+.newslatter-container .email input{
+    padding: 1rem 15rem 1rem 1rem;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px 0.2px hsl(243, 87%, 12%);
+}
+
+.newslatter-container .email button{
+    align-self: flex-start;
+    border: 0.85px;
+    background-color: hsl(224, 93%, 58%);
+    padding: 1rem 3rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.newslatter-container .email button:hover{
+    background-color: hsl(224, 93%, 58%)
+    ;
+    opacity:0.5;
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding: 8rem 0;
+}
+
+.footer-logo{
+    padding-bottom: 1rem;
+    align-self: flex-start;
+} 
+
+.row2{
+    margin-right: 5px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.col1{
+    margin-right: 9rem;
+}
+
+.col2{
+ margin-right: 2rem;
+}
+
+.col1, .col2, .col3, .col4 {
+    flex: 1 1 1rem;
+    
+}
+
+.footer-logo img {
+    width: 70%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+}
+
+.contact img {
+    width: 5%;
+}
+
+.col2 li, .col3 li{
+    padding-bottom: 1.25rem;
+}
+
+.col4{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.col4 a i{
+    color: white;
+    border: white 1px solid;
+    padding: 0.3rem;
+    border-radius: 50%;
+}
