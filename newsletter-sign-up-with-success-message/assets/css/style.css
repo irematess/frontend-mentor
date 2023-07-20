@@ -1,0 +1,142 @@
+@font-face{
+    font-family: 'MyFont';
+    src: url("/assets/fonts/Roboto-Regular.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'MyFont';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(234, 29%, 20%);
+}
+
+.card{
+    display: flex;
+    width: 800px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.card__content{
+    width: 60%;
+}
+
+.card__content .title{
+    font-size: 50px;
+}
+
+.card__content ul{
+    list-style-image: url("../images/icon-list.svg");
+}
+
+.card__content ul li{
+    margin-bottom: 10px;
+}
+
+.card__content form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.card__content label{
+    margin-bottom: 10px;
+}
+
+.card__content form input{
+    padding: 10px 20px;
+    font-family: inherit;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid hsl(231, 7%, 60%);
+}
+
+button{
+    font-family: inherit;
+    margin-top: 20px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    background-color: hsl(235, 18%, 26%);
+    cursor: pointer;
+
+}
+
+.card__illustration{
+    width: 40%;
+}
+
+.card__illustration img{
+    width: 100%;
+}
+
+.thanks-card{
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.thanks-card .title{
+    font-size: 40px;
+}
+
+.thanks-card--icon{
+    width: 50px;
+}
+
+.thanks-card button{
+    width: 100%;
+}
+
+.hide{
+    display: none;
+}
+
+@media (max-width:768px){
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .card{
+        flex-direction: column-reverse;
+        width: 95%;
+        padding: 0;
+    }
+    
+    .card .title{
+        font-size: 30px;
+    }
+
+    .card__content{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .card__illustration{
+        width: 100%;
+    }
+
+    .card__illustration{
+        background: url("../images/illustration-sign-up-mobile.svg");
+    }
+
+    .card__content form {
+        width: 90%;
+    }
+
+    .thanks-card{
+        min-height: 100vh;
+    }
+}

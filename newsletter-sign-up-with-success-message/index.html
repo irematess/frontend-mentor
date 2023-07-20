@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Sign Up with Success Message</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <article class="card">
+        <div class="card__content">
+            <h1 class="title">Stay updated!</h1>
+            <p class="about">Join 60,000+ product managers receiving monthly updates on.</p>
+            <ul>
+                <li>Product discovery and building what matters</li>
+                <li>Measuring to ensure updates are a success</li>
+                <li>And much more!</li>
+            </ul>
+            <form>
+                <label for="email">Email adress</label>
+                <input type="email" id="email" placeholder="email@company.com">
+                <button type="submit">Subscribe to monthly newsletter</button>
+            </form> 
+        </div>
+        <div class="card__illustration">
+            <img src="assets/images/illustration-sign-up-desktop.svg" alt="">
+        </div>
+    </article>
+    <article class="thanks-card hide">
+        <img src="assets/images/icon-success.svg" class="thanks-card--icon">
+        <h1 class="title">Thanks for subscribing!</h1>
+        <p>A confirmation email has been sent to <span>ash@loremcompany.com</span>.Please open it and click the button inside to confirm your subscription</p>
+        <button>Dismiss message</button>
+    </article>
+    <script src="main.js"></script>
+</body>
+</html>
